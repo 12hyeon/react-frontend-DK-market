@@ -2,11 +2,8 @@ import "../styles.css";
 import React from "react";
 import { useState } from "react";
 
-import Create from "../components/create";
-import Footer from "../components/footer";
 import Container from "../components/container";
 import Item from "../components/item";
-import Card from "../components/card";
 
 function Home() {
   const items = [
@@ -20,7 +17,7 @@ function Home() {
   if (mode === "HOME") {
     return (
       <div>
-        <div className="main-bg">메인페이지임</div>
+        <div className="main-bg"></div>
         <div class="board">
           <Container
             items={items}

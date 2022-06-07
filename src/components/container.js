@@ -23,7 +23,7 @@ function Container(props) {
   }
   return (
     <div class="container">
-      <h2>최근 등록된 상품</h2>
+      <h1><b>[ DKU마켓 상품 ]</b></h1>
       <div>
         <ul>{list}</ul>
       </div>
