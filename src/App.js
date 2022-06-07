@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<div className="main-bg">메인페이지임</div>}/>
         <Route path='/user/login' element={<Login/>}/>
-        <Route path='/user/signup' element={<Signup/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         <Route path='/user/write' element={<div>글쓰기 페이지임</div>}/>
         <Route path='/user/mypage' element={<div>마이페이지 페이지임</div>}/>
       </Routes>
