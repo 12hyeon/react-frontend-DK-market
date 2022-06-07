@@ -9,6 +9,7 @@ function Signup() {
   const [name, setName] = useState("")
   const [id, setId] = useState("")
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
 
@@ -28,6 +29,10 @@ function Signup() {
       setPassword(event.currentTarget.value)
   }
 
+  const onPhoneHandler = (event) => {
+      setPhone(event.currentTarget.value)
+  }
+
   const onConfirmPasswordHandler = (event) => {
       setConfirmPassword(event.currentTarget.value)
   }
@@ -38,13 +43,18 @@ function Signup() {
     if(password !== confirmPassword) {
       return alert('비밀번호와 비밀번호확인은 같아야 합니다.')
     }
-    axios.post('http://localhost:8000/user/signup', JSON.stringify(
-      {name: name, id: id, email: email, password: password })
+    axios.post('http://localhost:8080/user/signup', JSON.stringify(
+      { name: name, 
+        id: id, 
+        email: email, 
+        phone: phone, 
+        password: password
+      })
     )
     // 정상 수행
-    .then((result)=>{
+    .then((response)=>{
       // 로그인되면 /(index페이지)로 이동
-      console.log(result)
+      console.log(response)
     })
     .catch((error)=>{
       console.log(error)
@@ -58,6 +68,7 @@ function Signup() {
         <div><input name="name" type="text" placeholder="이름" value={name} onChange={onNameHandler} className="loginregister__input"/></div>
         <div><input name="id" type="text" placeholder="아이디" value={id} onChange={onIdHandler} className="loginregister__input"/></div>
         <div><input name="email" type="email" placeholder="이메일" value={email} onChange={onEmailHandler} className="loginregister__input"/></div>
+        <div><input name="phone" type="text" placeholder="전화번호" value={phone} onChange={onPhoneHandler} className="loginregister__input"/></div>
         <div><input name="password" type="password" placeholder="비밀번호" value={password} onChange={onPasswordHandler} className="loginregister__input"/></div>
         <div><input name="confirmPassword" type="password" placeholder="비밀번호 확인" value={confirmPassword} onChange={onConfirmPasswordHandler} className="loginregister__input"/></div>
         <div><button type="submit" onSubmit={onSubmit} className="loginregister__button">계정 생성하기</button></div>
