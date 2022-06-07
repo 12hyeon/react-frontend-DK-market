@@ -11,7 +11,7 @@ function Header() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
             <Nav.Link href='/user/login'>로그인</Nav.Link>
-            <Nav.Link href='/signup'>회원가입</Nav.Link>
+            <Nav.Link href='/user/signup'>회원가입</Nav.Link>
             <Nav.Link href='/user/write'>글쓰기</Nav.Link>
             <Nav.Link href='/user/mypage'>리스트</Nav.Link>
           </Nav>
