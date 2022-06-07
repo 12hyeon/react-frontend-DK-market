@@ -1,188 +1,189 @@
 html {
-    /*min-width: 1000px;*/
-  }
-  
-  .App {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  header,
-  footer {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    min-height: 100px;
-    background-color: lightgray;
-  }
-  footer {
-  }
-  #l_header,
-  #r_header,
-  .l_footer,
-  .r_header {
-    position: relative;
-    display: inline-block;
-    padding: 0 2%;
-    min-width: 300px;
-  }
-  
-  .l_footer {
-    margin: 5px;
-    width: 20%;
-    min-width: 20px;
-    text-align: center;
-  }
-  
-  .r_footer {
-    width: 100%;
-    min-width: 20px;
-    text-align: center;
-  }
-  ul li {
-    list-style: none;
-    display: inline;
-    margin: 0px 5px;
-  }
-  
-  #search {
-    min-width: 250px;
-    margin: 5px;
-    padding: 5px;
-  }
-  #main {
-    padding: 20px;
-    background-color: #ffcc80;
-  }
-  .card-top {
-    height: 200px;
-    width: 300px;
-    background-color: lightgray;
-  }
-  .card-body {
-    display: flex;
-    width: 300px;
-    background-color: white;
-    margin: 0;
-  }
-  .card-b-l {
-    display: inline;
-    width: 200px;
-  }
-  .card-b-r {
-    display: inline;
-    width: 100px;
-  }
-  #card-price {
-    color: darkred;
-  }
-  .card {
-    width: 300px;
-    height: 300px;
-    margin: 2%;
-    text-align: center;
-    display: inline-block;
-  }
-  
-  #btn-push a {
-    font-size: 15px;
-    background-color: white;
-    border-radius: 10%;
-    text-align: center;
-    width: 100px;
-    padding: 10px;
-    border: 2px solid darkred;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  .card img {
-    width: 300px;
-    height: 200px;
-    margin: 85px;
-  }
-  footer {
-    padding: 10px;
-  }
-  .board {
-    background-color: #ff9e80;
-    text-align: center;
-  }
-  
-  .btn-primary {
-    text-decoration: none;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-       a:focus {
-    text-decoration: none;
-  }
-  
-  .push li input {
-    min-width: 300px;
-    padding: 5px;
-    width: 60%;
-    margin: 5px;
-    border-radius: 5%;
-    border: 2px solid #8977ad;
-    color: blueviolet;
-  }
-  .push textarea {
-    margin-top: 10px;
-    min-width: 300px;
-    width: 60%;
-    height: 200px;
-    border-radius: 2%;
-    border: 3px solid lightgray;
-  }
-  .push,
-  .watch {
-    text-align: center;
-    margin: 20px;
-  }
-  .push ul,
-  .watch ul {
-    border-radius: 10%;
-    background-color: white;
-    display: inline-block;
-    min-width: 500px;
-    width: 70%;
-    padding: 10px;
-  }
-  .push hr {
-    min-width: 350px;
-    width: 75%;
-  }
-  .push input {
-    background-color: white;
-  }
-  .box {
-    background-color: ghostwhite;
-  }
-  .box h1 {
-    float: left;
-    margin-left: 10%;
-    padding: 10px;
-  }
-  
-  .boxes {
-    display: absolute;
-  }
-  .box-l,
-  .box-r {
-    display: inlilne;
-  }
-  
-  .box-l {
-    min-width: 300px;
-    width: 30%;
-    background-color: gray;
-  }
-  
+  /*min-width: 1000px;*/
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header,
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 100px;
+  background-color: lightgray;
+}
+footer {
+}
+#l_header,
+#r_header,
+.l_footer,
+.r_header {
+  position: relative;
+  display: inline-block;
+  padding: 0 2%;
+  min-width: 300px;
+}
+
+.l_footer {
+  margin: 5px;
+  width: 20%;
+  min-width: 20px;
+  text-align: center;
+}
+
+.r_footer {
+  width: 100%;
+  min-width: 20px;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px 5px;
+}
+
+#search {
+  min-width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+#main {
+  padding: 20px;
+  background-color: #ffcc80;
+}
+#cards {
+  display : inline-block;
+}
+.card-top {
+  height: 200px;
+  width: 300px;
+  background-color: lightgray;
+}
+.card-body {
+  display: flex;
+  width: 300px;
+  background-color: white;
+  margin: 0;
+}
+.card-b-l {
+  display: inline;
+  width: 200px;
+}
+.card-b-r {
+  display: inline;
+  width: 100px;
+}
+#card-price {
+  color: darkred;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 2%;
+  text-align: center;
+  display: inline-block;
+}
+
+#btn-push a {
+  font-size: 15px;
+  background-color: white;
+  border-radius: 10%;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid darkred;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.card img {
+  width: 300px;
+  height: 200px;
+  margin: 85px;
+}
+footer {
+  padding: 10px;
+}
+.board {
+  padding: 50px;
+  background-color: #ff9e80;
+  text-align: center;
+}
+
+.btn-primary {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+     a:focus {
+  text-decoration: none;
+}
+
+.push li input {
+  min-width: 300px;
+  padding: 5px;
+  width: 60%;
+  margin: 5px;
+  border-radius: 5%;
+  border: 2px solid #8977ad;
+  color: blueviolet;
+}
+.push textarea {
+  margin-top: 10px;
+  min-width: 300px;
+  width: 60%;
+  height: 200px;
+  border-radius: 2%;
+  border: 3px solid lightgray;
+}
+.push,
+.watch {
+  text-align: center;
+  margin: 20px;
+}
+.push ul,
+.watch ul {
+  border-radius: 10%;
+  background-color: white;
+  display: inline-block;
+  min-width: 500px;
+  width: 70%;
+  padding: 10px;
+}
+.push hr {
+  min-width: 350px;
+  width: 75%;
+}
+
+.box {
+  background-color: ghostwhite;
+}
+.box h1 {
+  float: left;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.boxes {
+  display: absolute;
+}
+.box-l,
+.box-r {
+  display: inlilne;
+}
+
+.box-l {
+  min-width: 300px;
+  width: 30%;
+  background-color: gray;
+}
