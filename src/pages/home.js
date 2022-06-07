@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import Create from "../components/create";
 import Footer from "../components/footer";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Container from "../components/container";
 import Item from "../components/item";
 import Card from "../components/card";
@@ -18,7 +18,7 @@ function Home() {
   const [mode, setMode] = useState("READ");
   const [id, setId] = useState(1);
 
-  if (mode == "HOME") {
+  if (mode === "HOME") {
     return (
       <div>
         <Header></Header>
@@ -48,7 +48,7 @@ function Home() {
         <Footer></Footer>
       </div>
     );
-  } else if (mode == "READ") {
+  } else if (mode === "READ") {
     return (
       <div>
         <Header></Header>
@@ -56,7 +56,7 @@ function Home() {
         <Footer></Footer>
       </div>
     );
-  } else if (mode == "CREATE") {
+  } else if (mode === "CREATE") {
     return (
       <div>
         <Header></Header>
