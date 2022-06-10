@@ -38,3 +38,12 @@
   padding: 5px;
   border: 1px solid black;
 }
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#real-input {
+  margin-left: 10px;
+}
