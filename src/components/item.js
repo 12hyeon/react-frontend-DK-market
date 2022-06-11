@@ -6,9 +6,9 @@ import {useState} from 'react'
 const item = [
   {
     id: 1,
-    title: "교재1111111",
-    price: "1234",
-    text: "~~~~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~~~\n~~~~~~~~~~~~~~~~~~~~~~",
+    title: "교재1",
+    price: "20000",
+    text: "프로그래밍 언어(C언어, Java) 완전 새책이고 사용감 전혀 없습니다.\n각각 10000원에 팔아요! \n직거래 희망하고 보정동에서 거래 가능합니다~",
     img: "/교재.jpg",
     heart: "1",
     watch: "2"
@@ -32,7 +32,7 @@ function Item(props) {
                 <h3 id="item-price"><b>{item[0].price}원</b></h3>
                 <div class="card-b-r">
                   <h5>
-                    watch {item[0].watch} | heart {item[0].heart}
+                    👀 {item[0].watch} | 💖 {item[0].heart}
                   </h5>
                 </div>
                 <input id="watch" type="button" value="관심"></input>

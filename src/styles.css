@@ -10,7 +10,10 @@ footer {
   justify-content: space-between;
   padding: 20px;
   min-height: 100px;
-  background-color: lightgray;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  height: 12vh;
+
 }
 
 #l_header,
@@ -24,10 +27,13 @@ footer {
 }
 
 .l_footer {
-  margin: 5px;
+  margin: 20px;
+  margin-top: 50px;
   width: 20%;
   min-width: 20px;
+  font-size: 2.0em;
   text-align: center;
+  vertical-align: middle;
 }
 
 .r_footer {
@@ -53,6 +59,7 @@ ul li {
 #cards {
   display : inline-block;
 }
+
 .card-top {
   height: 200px;
   width: 300px;
@@ -109,7 +116,8 @@ footer {
 }
 .board {
   padding: 50px;
-  background-color: #ff9e80;
+  /* background-color: #90b3b3; */
+  background: linear-gradient(to right, #fccb90, #d57eeb);
   text-align: center;
 }
 
@@ -123,7 +131,7 @@ a:hover {
   text-decoration: none;
   color :black;
 }
-     a:focus {
+a:focus {
   text-decoration: none;
 }
 
@@ -184,4 +192,11 @@ a:hover {
   min-width: 300px;
   width: 30%;
   background-color: gray;
+}
+
+.main-bg {
+  height: 75vh;
+  background-image: url('../public/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
 }

@@ -19,8 +19,8 @@ function Card(props) {
           <h3 id="card-price">{props.item.price}원</h3>
         </div>
         <div class="card-b-r">
-          <h4>heart {watch}</h4>
-          <h4>watch {love}</h4>
+          <h4>💖 {watch}</h4>
+          <h4>👀 {love}</h4>
         </div>
       </div>
     </div>

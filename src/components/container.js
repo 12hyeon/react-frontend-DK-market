@@ -23,7 +23,7 @@ function Container(props) {
   }
   return (
     <div class="container">
-      <h1><b>[ DKU마켓 상품 ]</b></h1>
+      
       <div>
         <ul>{list}</ul>
       </div>

@@ -1,0 +1,29 @@
+.mypage {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  padding: 0px;
+  float: left;
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 70vw;
+  height: 75vh;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  margin: 300px;
+  margin-top: 150px;
+  justify-items: auto;
+  align-items: auto;
+}

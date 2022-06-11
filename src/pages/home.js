@@ -19,6 +19,7 @@ function Home() {
       <div>
         <div className="main-bg"></div>
         <div class="board">
+          <h1><b> 🎁최근 올라온 물품들🎁 </b></h1>
           <Container
             items={items}
             onChangeMode={(_id) => {

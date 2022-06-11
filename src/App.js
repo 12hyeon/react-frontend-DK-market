@@ -11,7 +11,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import Login from "./pages/Login.js";
 import Signup from "./pages/Signup.js";
 import Home from "./pages/home.js";
-// import Mypage from './pages/Mypage.js';
+import Mypage from "./pages/mypage.js";
+import Soldlist from "./pages/soldlist.js";
+import Buylist from "./pages/buylist.js";
+import Heartlist from "./pages/heartlist.js";
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
         <Route path="/user/login" element={<Login />} />
         <Route path="/user/signup" element={<Signup />} />
         <Route path="/user/write" element={<Create />} />
-        <Route path="/user/mypage" element={<div>마이페이지 페이지임</div>} />
+        <Route path="/user/mypage" element={<Mypage />} />
+        <Route path="/user/mypage/soldlist" element={<Soldlist />} />
+        <Route path="/user/mypage/buylist" element={<Buylist />} />
+        <Route path="/user/mypage/heartlist" element={<Heartlist />} />
       </Routes>
       <Footer />
     </div>
