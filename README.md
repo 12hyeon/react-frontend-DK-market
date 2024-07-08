@@ -24,12 +24,14 @@
 <br>
 
 ## 시스템 구조 및 설계 내용
+### 시스템 구조
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/7c4b2b12-7d1a-42b6-a68e-c8e4fe3938e5)
+
+
 ### API 설계
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/aab9ad98-c6a3-453e-a747-527127649a1a)
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/ed31f4a8-aa1e-499e-a62b-9203461ee0ac)
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/09ed79e4-5baf-4c10-b3d6-9b35f8b25ed5)
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/4e1ed3a4-0035-495a-b095-c61dc65a90c4)
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/309331dc-b0af-4f84-bebe-834313b81b92)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/0784da62-8dd6-4ed1-bbdb-f59030af8c69)
+<br>
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/92831ccf-131c-41e5-af2e-2e7cd78e636e)
 
 ### 기능 설계
 - **메인 화면**: 최신 중고 상품이 먼저 보이도록 구성
@@ -42,5 +44,8 @@
 
 ## 구현 내용
 
-![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/d6c1ab81-1c8e-428b-862e-3e7e7e779c18)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/ae1baded-4d1f-401b-98d4-0b56a75a26c0)
+<br>
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/6cd87fe5-a819-4529-815a-97c828209952)
+
 
