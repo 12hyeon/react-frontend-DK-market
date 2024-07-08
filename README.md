@@ -1,79 +1,46 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DKU 마켓 정보 
+단국대 학생들을 위한 중고거래 웹서비스(DKU마켓)
 
-## Available Scripts
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/b01098c3-9470-4c8d-8369-3c94b1740f1d)
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## 프로젝트 배경
+단국대학교 내에서 중고 거래를 쉽고 편리하게 할 수 있는 플랫폼이 필요하다는 인식에서 시작된 프로젝트입니다. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 개발일정 및 역할분담
 
-### `npm test`
+1. 아이디어 및 사용할 오픈소스(스택 기술) 확정
+2. 중간 제안서 작성 및 자료조사
+3. React, Spring, 기술 실습 및 학습
+4. 세부 기능 및 페이지 구현
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/f5b5bd0b-86f7-475c-a8e2-7e13d8129a6c)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/2a477737-321b-4448-b69f-3b6cddcf0323)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 시스템 구조 및 설계 내용
+### API 설계
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/aab9ad98-c6a3-453e-a747-527127649a1a)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/ed31f4a8-aa1e-499e-a62b-9203461ee0ac)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/09ed79e4-5baf-4c10-b3d6-9b35f8b25ed5)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/4e1ed3a4-0035-495a-b095-c61dc65a90c4)
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/309331dc-b0af-4f84-bebe-834313b81b92)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 기능 설계
+- **메인 화면**: 최신 중고 상품이 먼저 보이도록 구성
+- **물건 등록**: 상품 정보 및 사진 업로드 기능
+- **관심 목록**: 사용자가 관심 있는 상품을 따로 모아 볼 수 있는 기능
+- **댓글 기능**: 상품에 대한 댓글 작성 및 관리 기능
+- **로그인/회원가입**: 사용자 인증 및 회원가입 기능
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## 구현 내용
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/12hyeon/react-frontend-DK-market/assets/67951802/d6c1ab81-1c8e-428b-862e-3e7e7e779c18)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# react-frontend-DK-market
-# FRONT
-Spring, React 사용 당근마켓 클론코딩
-
-###### lecture : DK-opensource SW
-###### frontend developer : 32203660 이현정, 32184026 전재욱
->>>>>>> 186c0ec2805280c891ba482aa5f0136c6e6cd78f
